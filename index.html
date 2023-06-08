@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id= "description">Tell us about your favourite mode of transportation.</p>
+    <form id="survey-form">
+      <label id = "name-label" for="name">
+        Name: <input id = "name" type="text" placeholder = "Enter your Name"/>
+      </label>
+      <label id = "email-label" for="email">
+        Email: <input id = "email" type="email" placeholder = "Enter your Email"/>
+    </label>
+      <label id = "number-label" for="number">
+        Number: <input id = "number" min="0" max="10" type = "number" placeholder = "Enter your Number"/>
+    <label>
+        <br/>
+      <label id = "number-label" for="dropdown">
+        Vehicle:  <select id = "dropdown"> 
+            <option value = "cars">cars </option>
+              <option value = "Bikes">Bikes </option>
+          </select>
+        <label>
+      <div class="age">
+        <label for = "new" > New </label>
+      <input type = "radio" name = "option" value = "new" id = "new"/>
+      <br/>
+      <label for = "old" > Old</label>
+      <input type = "radio" name = "option" value = "old" id = "old"/>
+      </div>
+      <div class="brands">
+        <label for = "alto" > alto</label>
+      <input type = "checkbox" name = "brands" value = "alto" id = "old"/>
+      <label for = "audi" > audi</label>
+      <input type = "checkbox" name = "brands" value = "audi" id = "audi"/>
+      <br/>
+      <label for = "BMW" > BMW</label>
+      <input type = "checkbox" name = "brands" value = "BMW" id = "BMW"/>
+      <label for = "volvo" > volvo</label>
+      <input type = "checkbox" name = "brands" value = "volvo" id = "volvo"/>
+      </div>
+      <textarea></textarea>
+      <button id = "submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+#description {
+  margin: 10px 0;
+}
+
+#survey-form {
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 400px;
+  margin: auto;
+  gap: 10px;
+  background-color: aquamarine;
+}
+
+.age {
+  margin: 10px 0;
+}
+
+#submit {
+  position: relative;
+  bottom: -25px;
+  right: 110px;
+}
